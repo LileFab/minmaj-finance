@@ -1,0 +1,38 @@
+# Environnement Python
+.venv/
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environnement virtuel et outils
+env/
+ENV/
+*.egg-info/
+*.egg
+
+# Fichiers de logs
+*.log
+logs/
+
+# Fichiers d'environnement
+.env
+.env.*
+
+# Alembic cache (si tu réactives plus tard)
+alembic.ini
+alembic/versions/
+
+# SQLite (si jamais utilisé pour dev)
+*.sqlite3
+
+# IDE / système
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Docker volumes
+volumes/
